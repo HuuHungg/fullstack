@@ -1,0 +1,25 @@
+.text {
+    font-weight: normal;
+    font-style: italic;
+    /* letter-spacing: 3px; */
+    word-spacing: 5px;
+    text-indent: 10px;
+}
+
+/* Over line: gạch  Ở trên */
+/* Under line: gạch dưới */
+ /* Line-through: Gạch ngang */
+/* Capitalize: Kí tự đầu viết hoa */
+/* letter spacing: Khoảng cách giữa các kí tự */
+/* Word Spacing: Khoảng cách giữa các từ */
+/* Text indent: Khoảng cách lùi vào đầu dòng */
+/* Word-wrap: Sẽ xuống dòng nếu như dài mà không xuống được dòng */
+
+h2 a {
+    /* text-decoration: overline underline line-through;  */
+    text-transform: capitalize;
+}
+
+.content {
+    word-wrap: break-word;
+}

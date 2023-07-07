@@ -1,0 +1,64 @@
+/* 
+    Thuộc tính position
+    + relative: vị trí tương đối
+    + absolute: vị trí tuyệt đối
+    + fixed: ví trí cố định
+    + static: Giá trị mặc định, không có position
+
+    Các thuộc tính liên quan khi có postition
+    + left,top,right,bottom,z-index 
+    + z-index: nhận giá trị nguyên cái nào cao hơn sẽ được ưu tiên, và phải có position 
+    + nếu có with và hight thì position sẽ ưu tiên left hoặc right nếu không có thì nó sẽ tự thay đổi chiều cao các thứ thôi
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1220px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  margin: 30px auto;
+  position: relative;
+}
+
+.item {
+  background: green;
+  color: #fff;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.item:nth-child(2) {
+  /* position: relative; */
+  /* % Tỉ lệ theo độ dài của thẻ cha */
+  /* left: 50%; */
+  /* top: 30px;
+  left: 50px; */
+  /* z-index: nhận giá trị nguyên cái nào cao hơn sẽ được ưu tiên, và phải có position */
+  /* z-index: 1; */
+  position: absolute;
+  right: 50px;
+  /* left: 0; */
+  /* bottom: 20px; */
+  /* top: 3; */
+  /* width: auto; */
+  bottom: 20px;
+}
+
+.item:nth-child(3) {
+  /* position: relative; */
+  /* z-index: 2; */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

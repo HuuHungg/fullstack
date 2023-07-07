@@ -1,0 +1,36 @@
+/* Nếu không có content thì sẽ không hiển thị được before after */
+.title::before {
+    content: '< ';
+}
+.title::after {
+    content: ' />';
+}
+.sub-title::before {
+    content: attr(data-name);
+}
+
+/* Dòng đầu tiên */
+.content p::first-line {
+    color: red;
+}
+
+/* Chữ cái đầu tiên */
+.content p::first-letter {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* Bôi đen */
+.content p::selection {
+    background:black;
+    color: yellow;
+}
+
+.fullName {
+color: red;
+}
+
+.fullName::placeholder {
+    color: currentColor;
+}
+

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.box ul {
+  /* Vị trí */
+  /* list-style-position: inside; */
+  /* Xét kiểm */
+  /* list-style-type: lower-greek; */
+  list-style: inside lower-latin;
+}
+
+.song {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.song h2 {
+  display: list-item;
+  list-style: inside decimal-leading-zero;
+}

@@ -1,0 +1,25 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 400px;
+  height: 800px;
+  border: 1px solid red;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+/* Max with và min with sẽ chặn đầu và đuôi */
+
+/* 
+    with,
+    height,
+    min-width,
+    max-with,
+    max-height,
+    min-height
+*/

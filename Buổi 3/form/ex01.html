@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Get, Push -->
+    <!-- <form
+      action="https://api-gateway.fullstack.edu.vn/action_page.php"
+      method="post"
+    >
+      <div>
+        <input type="text" name="name" placeholder="Full name" />
+      </div>
+      <div>
+        <input type="email" name="email" placeholder="Email" />
+      </div>
+      <button>Submit</button>
+    </form> -->
+
+    <form action="">
+      <div>
+        <label for="name2">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name2"
+          placeholder="Full Name ...."
+          value="YuShing"
+          required
+        />
+      </div>
+      <div>
+        <label for="email2">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email2"
+          placeholder="Email......"
+        />
+      </div>
+      <div>
+        <label for="pasworld2">Passworld</label>
+        <input
+          type="password"
+          name="password"
+          id="pasworld2"
+          placeholder="Passworld..."
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Age........"
+          min="18"
+          max="50"
+          step="0.1"
+        />
+      </div>
+      <div>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" />
+      </div>
+
+      <div>
+        <label>Giới Tính</label>
+        <label>
+          <input type="radio" name="gender" value="0" /> Khong xac dinh
+        </label>
+        <label>
+          <input type="radio" name="gender" value="1" checked /> Nam
+        </label>
+        <label> <input type="radio" name="gender" value="2" /> Nu </label>
+      </div>
+
+      <div>
+        <label>Nguon</label>
+        <label>
+          <input type="checkbox" name="source" value="1" checked /> Facebook
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="2" /> google
+        </label>
+        <label> <input type="checkbox" name="source" value="3" /> Insta </label>
+      </div>
+
+      <div>
+        <label for="message">Tin nhan</label>
+        <textarea
+          name="massage"
+          id="message"
+          placeholder="message...."
+          cols="30"
+          rows="10"
+        >
+ FullStack </textarea
+        >
+      </div>
+
+      <div>
+        <label for="provinces">Tỉnh/Thành phố</label>
+        <select name="provinces" id="provinces">
+          <option value="0" hidden>Chon Tinh/ThanhPho</option>
+          <optgroup label="Mien Bac">
+            <option value="1">Ha Noi</option>
+            <option value="2">Vinh Phuc</option>
+          </optgroup>
+          <optgroup label="Mien Trung">
+            <option value="3">Sai gon</option>
+            <option value="4">Bac Ninh</option>
+            <option value="4">Ha Nam</option>
+          </optgroup>
+          <optgroup label="Mien Nam">
+            <option value="4">Nam Dinh</option>
+            <option value="4">Quang Tri</option>
+            <option value="5">Quang binh</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="button">Button</button>
+    </form>
+  </body>
+</html>

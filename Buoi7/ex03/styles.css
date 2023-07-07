@@ -1,0 +1,17 @@
+/* 
+    Thuộc tính display = Thay đổi chế độ hiển thị của một element
+    - none: ẩn
+    - block: Chuyển thành block
+    - inline: Chuyển thành dạng inline
+    - inline-block: CHuyển thành dạng block, tuy nhiên nằm trên một dòng
+    - vissible: hiddent: ẩn đi nhưng không làm thay đổi khoảng cách
+*/
+
+.box {
+  border: 1px solid red;
+  padding: 5px 15px;
+  /* display: none; */
+  /* visibility: hidden; */
+  /* Inline có thể xét được margin,top,bottom */
+  display: inline-block;
+}

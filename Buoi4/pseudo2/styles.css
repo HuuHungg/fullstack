@@ -1,0 +1,27 @@
+/* 
+focus: Chỉ tồn tại trong form
+*/
+
+.title:hover {
+    color: red;
+}
+
+.title:active {
+    color: gray;
+}
+
+.btn:focus, .field-item:focus {
+    background-color: red;
+}
+
+.play-btn:focus {
+    border: 1px solid red;
+}
+
+.item:disabled {
+    background-color: #333;
+}
+
+.products h2:not(.active):not(.first):not(.last) {
+    color: red;
+}

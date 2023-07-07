@@ -1,0 +1,37 @@
+.content {
+    color:red;   
+}
+
+/* opacity: làm mờ ảnh */
+/* .box {
+    color: rgba(255, 0, 0, 0.5); 
+} */
+
+/* Color
+    Tên màu 
+    rgba()
+    hsl()
+    hexa 
+
+*/
+
+/* 2 giá trị kế thừa */
+
+/* -inherit => kế thừa từ thành phần cha trực tiếp */
+/* -initial => kế thừa mặc định trình duyệt */
+
+body {
+    color: green;
+}
+
+/* .content {
+    color: red;
+} */
+
+.content p {
+    color: inherit;
+}
+
+.content p:hover {
+    color: initial;
+}

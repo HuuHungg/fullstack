@@ -1,0 +1,40 @@
+#title {
+    color: red;
+}
+
+.title2 {
+    color: aqua;
+}
+
+p {
+    color: cadetblue;
+}
+
+.context h2 {
+    color: red;
+}
+
+.box h2 {
+    color: antiquewhite;
+}
+
+.content > h2 {
+    color: palevioletred;
+}
+
+.content > div > h2 {
+    color: blue;
+}
+
+
+.menu > li > a {
+    color: red;
+}
+
+h2.title.first {
+    color: red;
+}
+
+h3.title.last {
+    color: bisque;
+}

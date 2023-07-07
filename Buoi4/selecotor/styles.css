@@ -1,0 +1,27 @@
+/* .box h2 ~ p, .box h2 ~ div p {
+    color: red;
+} */
+
+
+/* 
+p: đứng sau h2
+p và h2 ngang hàng là con của box
+*/
+
+/* .box p + h3, .box p + h3 + h3{
+    color: red;
+}
+ */
+
+
+.box h3 + h3 {
+    color: red;
+}
+
+
+/* Trong các thẻ html có state */
+
+.todos input:checked ~ span {
+    color: red;
+}
+

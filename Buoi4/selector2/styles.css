@@ -1,0 +1,31 @@
+/* Attribute selector */
+
+/* .website a[target] {
+    color: red;
+} */
+
+/* .website a[href="https://fullstack.edu.vn"] {
+    color: red;
+} */
+
+/* ^ Chọn tất cả các link còn những cái ở đằng sau không quan trong  */
+/* https://fullstack.edu.vn */ 
+/* https://fullstack.edu.vn/course/reactJs */
+
+/* .website a[href^="https://fullstack.edu.vn"] {
+    color: red;
+} */
+
+/* * Kiểm tra cuối */
+.website a[href*="fullstack.edu.vn"] {
+    color: red;
+}
+
+.images a[href$=".jpg"] {
+    color: red;
+}
+
+
+[class^="item-"] {
+    border: 1px solid red;
+}

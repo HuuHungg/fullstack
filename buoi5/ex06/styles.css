@@ -1,0 +1,30 @@
+/* 
+    Back ground-color
+    background-image
+    background-size
+    background-repeat
+    background-position
+    background-attachment
+    background
+*/
+
+body {
+    height: 2000px;
+    /* background-image: url("https://fastly.picsum.photos/id/52/1600/600.jpg?hmac=jSLL_K6M8RvwSW8eS20F_o5_H1CDy2pTCKZ3W1rzDwo");
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-position: 0 0;   */
+    /* Contain fit theo chiều cao with: auto */
+    /* Cover fit cả khung hình đầy đủ hình */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* Fixed sẽ cố định hình */
+    /* Scroll thì nó sẽ quận theo */
+    background: bisque 
+    url("https://fastly.picsum.photos/id/52/1600/600.jpg?hmac=jSLL_K6M8RvwSW8eS20F_o5_H1CDy2pTCKZ3W1rzDwo") no-repeat 0 0/ 500px 300px fixed; 
+}
+
+.box {
+    /* background-color: aqua; */
+}
+

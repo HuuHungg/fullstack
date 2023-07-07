@@ -1,0 +1,17 @@
+.box:hover img {
+  /* opacity: 0.5; */
+  /* filter: grayscale(50%); */
+  /* filter: blur(2px); */
+  filter: grayscale(77%) sepia(66%) brightness(111%) hue-rotate(188deg)
+    saturate(613%) opacity(59%) contrast(319%) invert(26%);
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  filter: grayscale(1);
+}
+
+.title {
+  filter: blur(1px);
+}

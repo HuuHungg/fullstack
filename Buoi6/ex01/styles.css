@@ -1,0 +1,42 @@
+.btn-wrap {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background: green;
+  color: #fff;
+  height: 30px;
+  /* border-radius: 0 0 10px 10px; */
+  /* border-top-left-radius: 2px; */
+  border-radius: 99px;
+  /* 99px nó sẽ ôm đoạn đấy vào */
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: green;
+  border-radius: 50%;
+} */
+
+/* with, height: chỉ hoạt động với thẻ block */
+.box2 {
+  background-color: black;
+  width: 50%;
+  height: 200px;
+}
+
+.container {
+  border: 1px solid red;
+  width: 400px;
+}
+
+.span {
+  border: 1px solid red;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}

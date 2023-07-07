@@ -1,0 +1,10 @@
+/* Inline có thuộc tính như text */
+
+button {
+    text-align: right;
+    text-align: left;
+}
+
+.btn-wrap {
+    text-align: center;
+}

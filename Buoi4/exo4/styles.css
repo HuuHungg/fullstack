@@ -1,0 +1,35 @@
+.products p:first-child {
+    color: red;
+}
+
+.products p:last-child {
+    color: green;
+}
+
+/* .products .item:first-child {
+    color: red;
+}
+.products .item:last-child {
+    color: green;
+}
+ */
+
+/* Chọn khác kiểu */
+.products .item:first-of-type {
+    color: red;
+}
+
+.products .item:last-of-type {
+    color: blue;
+}
+
+/* 2n + 2 lấy các số chẵn, 2 là bắt đầu số chẵn nên cộng 2, 1 Là bắt đấu số lẻ 2n + 1 */ 
+/* .posts h2:nth-child(2n + 2) {
+    color: red;
+} */
+
+.posts h2:nth-of-type(2n + 2) {
+    color: blue;
+}
+
+

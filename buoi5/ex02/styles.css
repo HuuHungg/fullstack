@@ -1,0 +1,24 @@
+/* px: tuyệt đối, pt * 1,3 */
+/* Em kế thừa từ thằng cha gần nhất, nếu đằng sau có em tiếp thì nó lại ăn theo thừng cha tiếp */
+/* Rem ăn theo html, nếu html không có thì nó ăn sang trình duyệt mà trình duyệt thì là 16 */
+/* line-height: 1.5 dãn dòng, nó sẽ lấy 1.5 nhân với font-size */
+/* 
+
+html {
+    font-size: 40px;
+} */
+
+body {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+ /* .content {
+    font-size: 40px;
+}  */
+
+ .content p {
+    font-size: 1.5em;
+    /* font-size: 1.5rem; */
+
+}
