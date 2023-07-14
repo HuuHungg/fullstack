@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid red;
+  padding: 30px;
+  margin-top: 30px;
+  height: 400px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin: 0 auto;
+  /* transition: transform 0.4s ease; */
+  transition: all 0.4s ease;
+  color: #fff;
+  font-size: 30px;
+  transform-origin: 50% 0;
+  /* scale: 1 0; */
+  scale: 0;
+}
+
+.container:hover .box {
+  /* transform: rotate(45deg); */
+  /* rotate: 180deg; */
+  /* transform: rotateX(90deg); */
+  /* transform: rotateY(90deg); */
+  /* Scale */
+  /* transform: scale(1.5, 1.2); */
+  /* scale: 0.9 0.2; */
+  /* Thuộc tính tổng hợp */
+  /* transform: rotate(5deg) scale(1.2); */
+  /* transform: skew(30deg, 20deg); */
+  /* transform: translate(100px); */
+  /* transform: translateY(100px); */
+  scale: 1;
+}

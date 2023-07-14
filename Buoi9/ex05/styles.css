@@ -1,0 +1,34 @@
+/* Khai báo biến
+1. Biến toàn cục global (Variable)
+
+2.Biến cục bộ (Loocal variable)
+
+*/
+
+:root {
+  --primary-color: green;
+  --secondary-color: blue;
+  --font-family: Roboto, sans-serif;
+}
+
+body {
+  color: var(--secondary-color);
+}
+
+.box {
+  --border-color: aqua;
+  --font-style: italic;
+  border: 1px solid var(--border-color);
+}
+
+.box:hover {
+  --border-color: green;
+}
+
+.box .content {
+  font-style: var(--font-style);
+}
+
+.element {
+  font-style: var(--font-style);
+}
